@@ -33,10 +33,10 @@ To scan a range of IP addresses, you can iterate through the addresses and send 
 This script iterates through all the usable IP addresses in the specified network using the `ipaddress` module. For each IP address, it sends an ICMP Echo Request and checks for a response.
 
 
-## 2) port_scanner.py :
+## 3) port_scanner.py :
 
     usage: sudo python3 port_scanner.py 
 
-To scan a range of IP addresses, you can iterate through the addresses and send an ICMP Echo Request to each one.
+To scan open ports of the IP/HOST.
 
 This script takes a target IP address and a list of ports as input and checks if each port is open.
