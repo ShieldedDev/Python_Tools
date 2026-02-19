@@ -35,8 +35,17 @@ This script iterates through all the usable IP addresses in the specified networ
 
 ## 3) port_scanner.py :
 
-    usage: sudo python3 port_scanner.py 
+    usage: python3 port_scanner.py 
 
 To scan open ports of the IP/HOST.
 
 This script takes a target IP address and a list of ports as input and checks if each port is open.
+
+
+## 4) banner_grabbing.py :
+
+    usage: python3 banner_grabbing.py 
+
+To grab the service banner.
+
+This script connects to a specified port on a target IP address and attempts to retrieve the service banner.
